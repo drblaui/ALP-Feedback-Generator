@@ -9,7 +9,7 @@ def makefile(names, nr, assignments, filename):
 	#Create TextFile
 	file = open(filename + ".txt", "w")
 	file.write("Feedback fuer Blatt " + nr + "\n \n")
-  #Create Numbers for every Group
+  	#Create Numbers for every Group
 	for name in names:
 		file.write(name + "\n")
 		maxAmount = 0
